@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Name" minlength="4" maxlength="15" /> <br />
+        <input type="email" placeholder="Email"> <br />
+        <input type="email" placeholder="Email Address"
+            pattern="[a-z0-9.%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+            title="Email address must have the pattern characters@characters.domain" /> <br />
+        <input type="number" placeholder="Value" min=10 max=20 /> <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
